@@ -1,0 +1,12 @@
+{
+  "name": "dsh-memory-brain",
+  "version": "1.0.0",
+  "description": "Wire memory-brain long-term memory into DSH backend (recall on prompt, remember on turn end)",
+  "main": "dist/dsh.js",
+  "type": "module",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
